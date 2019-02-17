@@ -24,7 +24,7 @@ public class RecognizeCelebrities {
 
     public  void findCeleb(ByteBuffer pic) {
         ByteBuffer photo = pic;
-        AWSCredentials credentials = new BasicAWSCredentials("AKIAJTRKWCFOWHRXVO2A","VP95k2sWeHg3OjTPh36lyWHE5t7BMPpOp8bigyiP");
+        AWSCredentials credentials = new BasicAWSCredentials("Access Key","Secret Access Key");
         AmazonRekognition rekognitionClient = new AmazonRekognitionClient(credentials);
 
        /* ByteBuffer imageBytes=null;
